@@ -1,0 +1,51 @@
+#classifier {
+  background-color: #145374;
+  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.image {
+  width: 95%;
+  position: absolute;
+  float: right;
+  right: 1%;
+}
+
+.button {
+  float: right;
+  margin: 250px 2%;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 2% 15% 2%;
+}
+
+p{
+  color: #8f8f8f;
+}
