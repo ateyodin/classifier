@@ -1,4 +1,5 @@
 // Load File Event
+// Load File Event
 function loadFile(event){
   uploaded.src = URL.createObjectURL(event.target.files[0]);
 }
