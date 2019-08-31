@@ -1,8 +1,9 @@
-
+// Load File Event
 function loadFile(event){
   uploaded.src = URL.createObjectURL(event.target.files[0]);
 }
 
+// Function that gives the results
 async function classifier(){
   console.log("Classify in progress...");
   const result = await net.classify(uploaded);
