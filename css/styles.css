@@ -1,6 +1,7 @@
 #classifier {
-  background-color: #145374;
+  background-color: #ad1d45;
   color: white;
+  text-align: center;
 }
 
 .container-fluid{
@@ -24,20 +25,8 @@ h3{
   padding: 0 0 4.5rem;
 }
 
-.image {
-  width: 95%;
-  position: absolute;
-  float: right;
-  right: 1%;
-}
-
-.button {
-  float: right;
-  margin: 250px 2%;
-  font-family: "Montserrat";
-  font-size: 1rem;
-  line-height: 1.5;
-  font-weight: 400;
+.class{
+  margin: 10px;
 }
 
 #footer{
@@ -48,4 +37,10 @@ h3{
 
 p{
   color: #8f8f8f;
+}
+
+input[type=submit] {
+  background-color:transparent;
+  border:1px solid
+  transparent;
 }
