@@ -1,7 +1,7 @@
-let net;
-
 const classifier = knnClassifier.create();
 const webcamElement = document.getElementById('webcam');
+
+let net;
 
 async function app() {
   console.log('Loading mobilenet..');
@@ -28,6 +28,7 @@ async function app() {
   document.getElementById('class-a').addEventListener('click', () => addExample(0));
   document.getElementById('class-b').addEventListener('click', () => addExample(1));
   document.getElementById('class-c').addEventListener('click', () => addExample(2));
+  document.getElementById('class-d').addEventListener('click', () => addExample(3));
 
   while (true) {
     if (classifier.getNumClasses() > 0) {
@@ -36,7 +37,7 @@ async function app() {
       // Get the most likely class and confidences from the classifier module.
       const result = await classifier.predictClass(activation);
 
-      const classes = ['A', 'B', 'C'];
+      const classes = ['A', 'B', 'C', 'D'];
       document.getElementById('console').innerText = `
         prediction: ${classes[result.classIndex]}\n
         probability: ${result.confidences[result.classIndex]}
